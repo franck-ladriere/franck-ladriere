@@ -1,0 +1,14 @@
+# automation_rules.yaml
+
+morning_routine:
+  trigger: "06:30 AM"
+  actions:
+    - turn_on: "Kitchen Light"
+    - start_device: "Coffee Maker"
+    - open: "Bedroom Blinds"
+
+evening_routine:
+  trigger: "09:00 PM"
+  actions:
+    - turn_off: "Living Room Lights"
+    - activate: "Security System"
